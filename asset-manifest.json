@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/xanda/static/css/main.5f361e03.chunk.css",
+    "main.js": "/xanda/static/js/main.18a19c9f.chunk.js",
+    "main.js.map": "/xanda/static/js/main.18a19c9f.chunk.js.map",
+    "runtime-main.js": "/xanda/static/js/runtime-main.05a6976a.js",
+    "runtime-main.js.map": "/xanda/static/js/runtime-main.05a6976a.js.map",
+    "static/js/2.b4224cae.chunk.js": "/xanda/static/js/2.b4224cae.chunk.js",
+    "static/js/2.b4224cae.chunk.js.map": "/xanda/static/js/2.b4224cae.chunk.js.map",
+    "index.html": "/xanda/index.html",
+    "precache-manifest.27f18bf815580cb8969a319b201b7b8a.js": "/xanda/precache-manifest.27f18bf815580cb8969a319b201b7b8a.js",
+    "service-worker.js": "/xanda/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/xanda/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b4224cae.chunk.js.LICENSE.txt": "/xanda/static/js/2.b4224cae.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/xanda/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05a6976a.js",
+    "static/js/2.b4224cae.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.18a19c9f.chunk.js"
+  ]
+}
