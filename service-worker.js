@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xanda/precache-manifest.27f18bf815580cb8969a319b201b7b8a.js"
+  "/xanda/precache-manifest.29b01967e3265999e1a910852a637330.js"
 );
 
 self.addEventListener('message', (event) => {
