@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/xanda/static/css/main.8c7ce733.chunk.css",
-    "main.js": "/xanda/static/js/main.081d2d36.chunk.js",
-    "main.js.map": "/xanda/static/js/main.081d2d36.chunk.js.map",
+    "main.css": "/xanda/static/css/main.08988269.chunk.css",
+    "main.js": "/xanda/static/js/main.41d0c38a.chunk.js",
+    "main.js.map": "/xanda/static/js/main.41d0c38a.chunk.js.map",
     "runtime-main.js": "/xanda/static/js/runtime-main.05a6976a.js",
     "runtime-main.js.map": "/xanda/static/js/runtime-main.05a6976a.js.map",
     "static/css/2.aa5185e8.chunk.css": "/xanda/static/css/2.aa5185e8.chunk.css",
     "static/js/2.f13450e1.chunk.js": "/xanda/static/js/2.f13450e1.chunk.js",
     "static/js/2.f13450e1.chunk.js.map": "/xanda/static/js/2.f13450e1.chunk.js.map",
     "index.html": "/xanda/index.html",
-    "precache-manifest.29b01967e3265999e1a910852a637330.js": "/xanda/precache-manifest.29b01967e3265999e1a910852a637330.js",
+    "precache-manifest.bde6ae84b8e1e584fdcf237a111da8e2.js": "/xanda/precache-manifest.bde6ae84b8e1e584fdcf237a111da8e2.js",
     "service-worker.js": "/xanda/service-worker.js",
     "static/css/2.aa5185e8.chunk.css.map": "/xanda/static/css/2.aa5185e8.chunk.css.map",
-    "static/css/main.8c7ce733.chunk.css.map": "/xanda/static/css/main.8c7ce733.chunk.css.map",
+    "static/css/main.08988269.chunk.css.map": "/xanda/static/css/main.08988269.chunk.css.map",
     "static/js/2.f13450e1.chunk.js.LICENSE.txt": "/xanda/static/js/2.f13450e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.05a6976a.js",
     "static/css/2.aa5185e8.chunk.css",
     "static/js/2.f13450e1.chunk.js",
-    "static/css/main.8c7ce733.chunk.css",
-    "static/js/main.081d2d36.chunk.js"
+    "static/css/main.08988269.chunk.css",
+    "static/js/main.41d0c38a.chunk.js"
   ]
 }
