@@ -40,22 +40,22 @@ class DateCountdown extends React.Component {
     const hour = duration.hours();
     const minute = duration.minutes();
     const seconds = duration.seconds();
-    return <Container>
+    return <Container className="DateCountdown">
       <Row xs={4} md={8} lg={16}>
         <Col>
-          <h2>Dias</h2>
+          <p className="timeHead">Dias</p>
           <CircularProgressbar value={day} maxValue={30} text={`${day}`}/>
         </Col>
         <Col>
-          <h2>Horas</h2>
+          <p className="timeHead">Horas</p>
           <CircularProgressbar value={hour} maxValue={24} text={`${hour}`}/>
         </Col>
         <Col>
-          <h2>Minutos</h2>
+          <p className="timeHead">Minutos</p>
           <CircularProgressbar value={minute} maxValue={60} text={`${minute}`}/>
         </Col>
         <Col>
-          <h2>Segundos</h2>
+          <p className="timeHead">Segundos</p>
           <CircularProgressbar value={seconds} maxValue={60} text={`${seconds}`}/>
         </Col>
       </Row>

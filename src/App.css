@@ -1,5 +1,16 @@
-h2 {
+.App {
+    display: flex;
+    align-items: center;
+}
+.timeHead {
     color: #3e98c7;
     font-weight: normal;
     text-align: center;
+    font-size: 3vw;
+}
+.DateCountdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
