@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c2fbe79b899bdaaffd946d15a7524a7",
+    "revision": "728f80247f2d71a16f5c825ea96eb335",
     "url": "/xanda/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xanda/static/css/2.aa5185e8.chunk.css"
   },
   {
-    "revision": "56cfde955c30df80a25c",
+    "revision": "a90579a9c8e881fcef05",
     "url": "/xanda/static/css/main.43480fd0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xanda/static/js/2.51f3fb66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56cfde955c30df80a25c",
-    "url": "/xanda/static/js/main.2ef29f8b.chunk.js"
+    "revision": "a90579a9c8e881fcef05",
+    "url": "/xanda/static/js/main.e8abc28a.chunk.js"
   },
   {
     "revision": "ae61dd76a29264cc1073",

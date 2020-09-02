@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xanda/static/css/main.43480fd0.chunk.css",
-    "main.js": "/xanda/static/js/main.2ef29f8b.chunk.js",
-    "main.js.map": "/xanda/static/js/main.2ef29f8b.chunk.js.map",
+    "main.js": "/xanda/static/js/main.e8abc28a.chunk.js",
+    "main.js.map": "/xanda/static/js/main.e8abc28a.chunk.js.map",
     "runtime-main.js": "/xanda/static/js/runtime-main.05a6976a.js",
     "runtime-main.js.map": "/xanda/static/js/runtime-main.05a6976a.js.map",
     "static/css/2.aa5185e8.chunk.css": "/xanda/static/css/2.aa5185e8.chunk.css",
     "static/js/2.51f3fb66.chunk.js": "/xanda/static/js/2.51f3fb66.chunk.js",
     "static/js/2.51f3fb66.chunk.js.map": "/xanda/static/js/2.51f3fb66.chunk.js.map",
     "index.html": "/xanda/index.html",
-    "precache-manifest.231a12c6ad8263b87773a76f5ba99805.js": "/xanda/precache-manifest.231a12c6ad8263b87773a76f5ba99805.js",
+    "precache-manifest.519223f125520cdd671205c67fd570b2.js": "/xanda/precache-manifest.519223f125520cdd671205c67fd570b2.js",
     "service-worker.js": "/xanda/service-worker.js",
     "static/css/2.aa5185e8.chunk.css.map": "/xanda/static/css/2.aa5185e8.chunk.css.map",
     "static/css/main.43480fd0.chunk.css.map": "/xanda/static/css/main.43480fd0.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.aa5185e8.chunk.css",
     "static/js/2.51f3fb66.chunk.js",
     "static/css/main.43480fd0.chunk.css",
-    "static/js/main.2ef29f8b.chunk.js"
+    "static/js/main.e8abc28a.chunk.js"
   ]
 }
