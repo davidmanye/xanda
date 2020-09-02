@@ -19,7 +19,7 @@ class Caesar extends React.Component {
   }
 
   validate = () => {
-    this.props.history.push('square')
+    this.props.history.push('/square')
   }
 }
 
