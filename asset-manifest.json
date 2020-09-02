@@ -1,26 +1,29 @@
 {
   "files": {
     "main.css": "/xanda/static/css/main.43480fd0.chunk.css",
-    "main.js": "/xanda/static/js/main.489a4d5c.chunk.js",
-    "main.js.map": "/xanda/static/js/main.489a4d5c.chunk.js.map",
+    "main.js": "/xanda/static/js/main.ad1a8866.chunk.js",
+    "main.js.map": "/xanda/static/js/main.ad1a8866.chunk.js.map",
     "runtime-main.js": "/xanda/static/js/runtime-main.05a6976a.js",
     "runtime-main.js.map": "/xanda/static/js/runtime-main.05a6976a.js.map",
     "static/css/2.aa5185e8.chunk.css": "/xanda/static/css/2.aa5185e8.chunk.css",
-    "static/js/2.58fcdc59.chunk.js": "/xanda/static/js/2.58fcdc59.chunk.js",
-    "static/js/2.58fcdc59.chunk.js.map": "/xanda/static/js/2.58fcdc59.chunk.js.map",
+    "static/js/2.06fa7040.chunk.js": "/xanda/static/js/2.06fa7040.chunk.js",
+    "static/js/2.06fa7040.chunk.js.map": "/xanda/static/js/2.06fa7040.chunk.js.map",
     "index.html": "/xanda/index.html",
-    "precache-manifest.644670ee3931a8895e8bbd6c14dfe70e.js": "/xanda/precache-manifest.644670ee3931a8895e8bbd6c14dfe70e.js",
+    "precache-manifest.e0342611b73c328b9beebd3c5292aa31.js": "/xanda/precache-manifest.e0342611b73c328b9beebd3c5292aa31.js",
     "service-worker.js": "/xanda/service-worker.js",
     "static/css/2.aa5185e8.chunk.css.map": "/xanda/static/css/2.aa5185e8.chunk.css.map",
     "static/css/main.43480fd0.chunk.css.map": "/xanda/static/css/main.43480fd0.chunk.css.map",
-    "static/js/2.58fcdc59.chunk.js.LICENSE.txt": "/xanda/static/js/2.58fcdc59.chunk.js.LICENSE.txt",
+    "static/js/2.06fa7040.chunk.js.LICENSE.txt": "/xanda/static/js/2.06fa7040.chunk.js.LICENSE.txt",
+    "static/media/SKA-P-El Gato Lopez..mp3": "/xanda/static/media/SKA-P-El Gato Lopez..179b9640.mp3",
+    "static/media/el-senor-don-gato.mp3": "/xanda/static/media/el-senor-don-gato.6161f535.mp3",
+    "static/media/la-pegatina-gat-rumberu-con-letra.mp3": "/xanda/static/media/la-pegatina-gat-rumberu-con-letra.831149f9.mp3",
     "static/media/magico.png": "/xanda/static/media/magico.a4d6c483.png"
   },
   "entrypoints": [
     "static/js/runtime-main.05a6976a.js",
     "static/css/2.aa5185e8.chunk.css",
-    "static/js/2.58fcdc59.chunk.js",
+    "static/js/2.06fa7040.chunk.js",
     "static/css/main.43480fd0.chunk.css",
-    "static/js/main.489a4d5c.chunk.js"
+    "static/js/main.ad1a8866.chunk.js"
   ]
 }
