@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Square from "./components/Square";
 import Caesar from "./components/Caesar";
+import Song from "./components/Song";
 
 class App extends React.Component {
   render() {
@@ -22,6 +23,10 @@ class App extends React.Component {
           <Route
             path="/caesar"
             component={Caesar}>
+          </Route>
+          <Route
+            path="/song"
+            component={Song}>
           </Route>
           <Route
             path="/"

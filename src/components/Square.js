@@ -29,7 +29,7 @@ class Square extends React.Component {
             Correcto!
           </Alert>
           <InputGroup className="mb-3">
-            <FormControl onChange={this.handleChange} value={this.state.solution} placeholder="Solucion"/>
+            <FormControl onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
             <InputGroup.Append>
               <Button onClick={this.validate}>Validar</Button>
             </InputGroup.Append>
@@ -47,7 +47,7 @@ class Square extends React.Component {
   validate = () => {
     if (this.state.solution === '13') {
       this.setState({success: true})
-      setTimeout(() => this.props.history.push('caesar'), 2000);
+      setTimeout(() => this.props.history.push('caesar'), 1000);
     } else {
       this.setState({failed: true})
     }
