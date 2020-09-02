@@ -40,7 +40,7 @@ class DateCountdown extends React.Component {
     const hour = duration.hours();
     const minute = duration.minutes();
     const seconds = duration.seconds();
-    return <Container className="DateCountdown">
+    return <Container className="center">
       <Row xs={4} md={8} lg={16}>
         <Col>
           <p className="timeHead">Dias</p>

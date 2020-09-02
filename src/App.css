@@ -2,15 +2,50 @@
     display: flex;
     align-items: center;
 }
+
 .timeHead {
     color: #3e98c7;
     font-weight: normal;
     text-align: center;
     font-size: 3vw;
 }
-.DateCountdown {
+
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.square {
+    margin-bottom: 20px;
+}
+
+.prim {
+    color: #7a7c7f;
+    font-size: 29px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 45px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    padding-top: 20px;
+}
+
+.sec {
+    font-style: italic;
+    color: #B6B6B6;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
 }
