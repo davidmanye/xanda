@@ -28,9 +28,9 @@ class Caesar extends React.Component {
               Correcto!
             </Alert>
             <InputGroup className="mb-3">
-              <FormControl onChange={this.handleChange} value={this.state.solution} placeholder="Solucion"/>
+              <FormControl onKeyPress={(e) => {if (e.key == 'Enter') { this.validate()}}} onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
               <InputGroup.Append>
-                <Button onClick={this.validate}>Validar</Button>
+                <Button  onClick={this.validate}>Validar</Button>
               </InputGroup.Append>
             </InputGroup>
           </Row>
@@ -44,8 +44,8 @@ class Caesar extends React.Component {
 
   validate = () => {
     if (this.state.solution === 'leiva') {
-      this.setState({success: true})
-      this.props.history.push('dateCountdown')
+      this.setState({success: true, failed: false})
+      setTimeout(() => this.props.history.push('song'), 1000);
     } else {
       this.setState({failed: true})
     }

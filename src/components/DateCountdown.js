@@ -3,6 +3,7 @@ import {CircularProgressbar} from 'react-circular-progressbar';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import {Image, Jumbotron} from 'react-bootstrap';
 import 'react-circular-progressbar/dist/styles.css';
 import moment from "moment";
 
@@ -41,6 +42,9 @@ class DateCountdown extends React.Component {
     const minute = duration.minutes();
     const seconds = duration.seconds();
     return <Container className="center">
+      <Jumbotron fluid>
+        <p className="prim">Lo bueno se hace esperar... sabrás cómo continuar cuando llegue el momento</p>
+      </Jumbotron>
       <Row xs={4} md={8} lg={16}>
         <Col>
           <p className="timeHead">Dias</p>

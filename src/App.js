@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Square from "./components/Square";
 import Caesar from "./components/Caesar";
+import Song from "./components/Song";
+import Home from "./components/Home";
 
 class App extends React.Component {
   render() {
@@ -24,8 +26,16 @@ class App extends React.Component {
             component={Caesar}>
           </Route>
           <Route
-            path="/"
+            path="/song"
+            component={Song}>
+          </Route>
+          <Route
+            path="/square"
             component={Square}>
+          </Route>
+          <Route
+            path="/"
+            component={Home}>
           </Route>
         </Switch>
       </Router>
