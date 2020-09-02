@@ -43,7 +43,7 @@ class Caesar extends React.Component {
   }
 
   validate = () => {
-    if (this.state.solution === 'leiva') {
+    if (this.state.solution.toLowerCase() === 'leiva') {
       this.setState({success: true, failed: false})
       setTimeout(() => this.props.history.push('song'), 1000);
     } else {
