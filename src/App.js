@@ -11,6 +11,7 @@ import Square from "./components/Square";
 import Caesar from "./components/Caesar";
 import Song from "./components/Song";
 import Home from "./components/Home";
+import Crespo from "./components/Crespo";
 
 class App extends React.Component {
   render() {
@@ -32,6 +33,10 @@ class App extends React.Component {
           <Route
             path="/square"
             component={Square}>
+          </Route>
+          <Route
+            path="/crespo"
+            component={Crespo}>
           </Route>
           <Route
             path="/"

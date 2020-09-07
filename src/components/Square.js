@@ -17,7 +17,6 @@ class Square extends React.Component {
     return <div className="center">
       <Row className="m-auto">
         <Col><Image src={square} className='square' fluid/></Col>
-
       </Row>
       <Row className="m-auto">
         <Col>
@@ -29,7 +28,7 @@ class Square extends React.Component {
             Correcto!
           </Alert>
           <InputGroup className="mb-3">
-            <FormControl onKeyPress={(e) => {if (e.key == 'Enter') { this.validate()}}} onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
+            <FormControl onKeyPress={(e) => {if (e.key === 'Enter') { this.validate()}}} onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
             <InputGroup.Append>
               <Button  onClick={this.validate}>Validar</Button>
             </InputGroup.Append>

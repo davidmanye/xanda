@@ -28,7 +28,7 @@ class Caesar extends React.Component {
               Correcto!
             </Alert>
             <InputGroup className="mb-3">
-              <FormControl onKeyPress={(e) => {if (e.key == 'Enter') { this.validate()}}} onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
+              <FormControl onKeyPress={(e) => {if (e.key === 'Enter') { this.validate()}}} onChange={this.handleChange} value={this.state.solution} placeholder="Solución"/>
               <InputGroup.Append>
                 <Button  onClick={this.validate}>Validar</Button>
               </InputGroup.Append>

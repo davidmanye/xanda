@@ -3,7 +3,7 @@ import {CircularProgressbar} from 'react-circular-progressbar';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import {Image, Jumbotron} from 'react-bootstrap';
+import {Jumbotron} from 'react-bootstrap';
 import 'react-circular-progressbar/dist/styles.css';
 import moment from "moment";
 

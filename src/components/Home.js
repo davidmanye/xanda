@@ -1,5 +1,5 @@
 import React from 'react';
-import {InputGroup, FormControl, Button, Alert, Row, Col, Jumbotron} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 class Caesar extends React.Component {
 
