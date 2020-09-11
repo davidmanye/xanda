@@ -38,7 +38,9 @@ class Crespo extends React.Component {
             />
           </Row>
           <Row>
-            <Button variant="outline-danger" onClick={this.onEnd}>Saltar</Button>
+            <Col className="text-center">
+              <Button variant="outline-danger" onClick={this.onEnd}>Saltar</Button>
+            </Col>
           </Row>
         </Col>
       </div>;
@@ -96,7 +98,7 @@ class Crespo extends React.Component {
   validate = () => {
     if (this.state.solution.toLowerCase() === '4') {
       this.setState({success: true, failed: false})
-      setTimeout(() => this.props.history.push('song'), 1000);
+      setTimeout(() => this.props.history.push('quickquestions'), 1000);
     } else {
       this.setState({failed: true})
     }

@@ -12,6 +12,7 @@ import Caesar from "./components/Caesar";
 import Song from "./components/Song";
 import Home from "./components/Home";
 import Crespo from "./components/Crespo";
+import QuickQuestions from "./components/QuickQuestions";
 
 class App extends React.Component {
   render() {
@@ -37,6 +38,10 @@ class App extends React.Component {
           <Route
             path="/crespo"
             component={Crespo}>
+          </Route>
+          <Route
+            path="/quickquestions"
+            component={QuickQuestions}>
           </Route>
           <Route
             path="/"
