@@ -13,6 +13,9 @@ import Song from "./components/Song";
 import Home from "./components/Home";
 import Crespo from "./components/Crespo";
 import QuickQuestions from "./components/QuickQuestions";
+import Catpone from "./components/Catpone";
+import LastKey from "./components/LastKey";
+import Selva from "./components/Selva";
 
 class App extends React.Component {
   render() {
@@ -42,6 +45,18 @@ class App extends React.Component {
           <Route
             path="/quickquestions"
             component={QuickQuestions}>
+          </Route>
+          <Route
+            path="/catpone"
+            component={Catpone}>
+          </Route>
+          <Route
+            path="/lastkey"
+            component={LastKey}>
+          </Route>
+          <Route
+            path="/selva"
+            component={Selva}>
           </Route>
           <Route
             path="/"
