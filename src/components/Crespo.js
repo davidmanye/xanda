@@ -47,7 +47,7 @@ class Crespo extends React.Component {
     } else {
       element = <div className="center">
         <Row className="m-auto">
-          <p className="prim">Que paso (del 1 al 5) rompe la igualdad?</p>
+          <p className="prim">¿Que paso (del 1 al 5) rompe la igualdad?</p>
         </Row>
         <Row className="m-auto">
           <Col><Image src={StepsImage} className='square' fluid/></Col>

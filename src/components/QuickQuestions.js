@@ -111,8 +111,8 @@ class QuickQuestions extends React.Component {
   renderBeginning() {
     return <Container className="center">
       <Jumbotron fluid>
-        <p className="prim">Seguid atentos... Para continuar debeis contestar todas las preguntas bien</p>
-        <p className="prim">Solo teneis 5 segundos para dar la respuesta correcta</p>
+        <p className="prim">Seguid atentos... Para continúar debéis acertar todas las preguntas </p>
+        <p className="prim">Solo tenéis 5 segundos para contestar.</p>
       </Jumbotron>
       <Row>
         <Col className="text-center"> <Button onClick={this.continue}>Continuar</Button></Col>

@@ -69,8 +69,8 @@ class DateCountdown extends React.Component {
     }
     return <Container className="center">
       <Jumbotron fluid>
-        <p className="prim">Ya lo teneis todo para continuar?</p>
-        <p className="prim">Estad atentos cuando pulseis el botón</p>
+        <p className="prim">¿Ya lo tenéis todo para continuar?</p>
+        <p className="prim">Estad atentos cuando pulséis el botón</p>
       </Jumbotron>
       <Row>
         <Col className="text-center"> <Button onClick={this.continue}>Continuar</Button></Col>
