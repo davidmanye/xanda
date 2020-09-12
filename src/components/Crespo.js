@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, Button, Col, FormControl, Image, InputGroup, Row} from 'react-bootstrap';
+import {Container, Alert, Button, Col, FormControl, Image, InputGroup, Row} from 'react-bootstrap';
 import YouTube from 'react-youtube';
 import StepsImage from "../1_0_steps.png";
 
@@ -28,22 +28,24 @@ class Crespo extends React.Component {
           modestbranding: 1
         }
       };
-      element = <div className="center">
-        <Col>
-          <Row className="m-auto" fluid>
+      element = <Container className="align-middle">
+        <Row>
+          <Col className="embed-responsive embed-responsive-16by9">
             <YouTube
+              className="embed-responsive-item"
               videoId='LfSA5voxyI0'                  // defaults -> null
               opts={opts}                        // defaults -> {}
               onEnd={this.onEnd}                      // defaults -> noop
             />
-          </Row>
-          <Row>
-            <Col className="text-center">
-              <Button variant="outline-danger" onClick={this.onEnd}>Saltar</Button>
-            </Col>
-          </Row>
-        </Col>
-      </div>;
+          </Col>
+
+        </Row>
+        <Row>
+          <Col className="text-center">
+            <Button variant="outline-danger" onClick={this.onEnd}>Saltar</Button>
+          </Col>
+        </Row>
+      </Container>;
     } else {
       element = <div className="center">
         <Row className="m-auto">

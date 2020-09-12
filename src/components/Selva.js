@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Row} from 'react-bootstrap';
+import {Button, Col, Container, Row} from 'react-bootstrap';
 import YouTube from 'react-youtube';
 
 class Selva extends React.Component {
@@ -25,17 +25,29 @@ class Selva extends React.Component {
         modestbranding: 1
       }
     };
-    return <div className="center">
-      <Col>
-        <Row className="m-auto" fluid>
+    // return <div className="center">
+    //   <Col>
+    //     <Row className="m-auto" fluid>
+    //       <YouTube
+    //         videoId='_sAW6P4T5zE'                  // defaults -> null
+    //         opts={opts}                            // defaults -> {}
+    //         onEnd={this.onEnd}                     // defaults -> noop
+    //       />
+    //     </Row>
+    //   </Col>
+    // </div>;
+    return <Container className="align-middle">
+      <Row>
+        <Col className="embed-responsive embed-responsive-16by9">
           <YouTube
+            className="embed-responsive-item"
             videoId='_sAW6P4T5zE'                  // defaults -> null
-            opts={opts}                            // defaults -> {}
-            onEnd={this.onEnd}                     // defaults -> noop
+            opts={opts}                        // defaults -> {}
+            onEnd={this.onEnd}                      // defaults -> noop
           />
-        </Row>
-      </Col>
-    </div>;
+        </Col>
+      </Row>
+    </Container>
   }
 
   handleChange = (event) => {
