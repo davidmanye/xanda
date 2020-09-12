@@ -62,11 +62,11 @@ class Catpone extends React.Component {
               Algunos ya lo han intentado y no han vivido para contarlo. ¿Estáis listos? :
             </p>
             <div className="text-center">
-              <p className="text-success">Al Catpone dice: 18 &#x2192; respuecta correcta 8</p>
-              <p className="text-success">Al Catpone dice: 8 &#x2192; respuecta correcta 4</p>
-              <p className="text-success">Al Catpone dice: 14 &#x2192; respuecta correcta 7</p>
-              <p className="text-danger">Al Catpone dice: 0 &#x2192; respuecta incorrecta 0</p>
-              <p className="text-danger">Al Catpone dice: 6 &#x2192; respuecta incorrecta 3</p>
+              <p className="text-success">Al Catpone dice: 18 &#x2192; respuesta correcta 8</p>
+              <p className="text-success">Al Catpone dice: 8 &#x2192; respuesta correcta 4</p>
+              <p className="text-success">Al Catpone dice: 14 &#x2192; respuesta correcta 7</p>
+              <p className="text-danger">Al Catpone dice: 0 &#x2192; respuesta incorrecta 0</p>
+              <p className="text-danger">Al Catpone dice: 6 &#x2192; respuesta incorrecta 3</p>
             </div>
           </Jumbotron>
         </Col>
@@ -116,7 +116,7 @@ class Catpone extends React.Component {
 
   validate = () => {
     const number = this.getCurrentNumber();
-    if (this.state.solution.toLowerCase() == number.answer) {
+    if (this.state.solution.toLowerCase() === number.answer.toString()) {
       this.setState({success: true, failed: false})
       setTimeout(() => this.props.history.push('lastkey'), 1000);
     } else {

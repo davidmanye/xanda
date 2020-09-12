@@ -1,7 +1,6 @@
 import React from 'react';
-import {Alert, Button, Col, FormControl, Image, InputGroup, Row} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 import YouTube from 'react-youtube';
-import StepsImage from "../1_0_steps.png";
 
 class Selva extends React.Component {
 
@@ -30,7 +29,7 @@ class Selva extends React.Component {
       <Col>
         <Row className="m-auto" fluid>
           <YouTube
-            videoId='k0EvKIi-1aY'                  // defaults -> null
+            videoId='_sAW6P4T5zE'                  // defaults -> null
             opts={opts}                            // defaults -> {}
             onEnd={this.onEnd}                     // defaults -> noop
           />

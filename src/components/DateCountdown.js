@@ -12,7 +12,7 @@ class DateCountdown extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      final: new moment('2020-09-11T11:53:00'),
+      final: new moment('2020-09-13T18:00:00'),
       date: new moment()
     };
   }
